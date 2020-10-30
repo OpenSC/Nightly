@@ -28,8 +28,8 @@ cat OpenSC*.dmg.* > OpenSC.dmg
 ```
 
 ```cmd
-# Recreate the Windows debug symbols
-copy /b OpenSC-0.21.0-rc1_win64-Debug.zip.aa+OpenSC-0.21.0-rc1_win64-Debug.zip.ab OpenSC-0.21.0-rc1_win64-Debug.zip
+REM Recreate the Windows debug symbols
+copy /b OpenSC-0.21.0-rc1_win64-Debug.zip.aa+OpenSC-0.21.0-rc1_win64-Debug.zip.ab OpenSC-Debug.zip
 ```
 
 Note that old builds may be deleted at any time.
